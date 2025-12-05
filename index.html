@@ -9,69 +9,77 @@
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="assets/img/undraw_shopping_a55o.svg" alt="">
+            <img src="assets/img/undraw_shopping_a55o.svg" alt="Ilustração de compras">
         </div>
         <div class="form">
-            <form action="#">
+            <form action="#" method="post">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
+                        <button type="button">Entrar</button>
                     </div>
                 </div>
+
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Primeiro nome</label>
                         <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
                     </div>
+
                     <div class="input-box">
                         <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome nome" required>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
                     </div>
+
                     <div class="input-box">
                         <label for="email">Email</label>
-                        <input id="email" type="text" name="email" placeholder="Digite seu email" required>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
                     </div>
+
                     <div class="input-box">
                         <label for="celular">Celular</label>
                         <input id="celular" type="tel" name="celular" placeholder="(XX)XXXXX-XXXX" required>
                     </div>
+
                     <div class="input-box">
                         <label for="senha">Senha</label>
                         <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
+
                     <div class="input-box">
                         <label for="Confirmpassword">Confirme sua senha</label>
                         <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
                     </div>
+
                     <div class="gender-inputs">
                         <div class="gender-title">
                             <h6>Gênero</h6>
                         </div>
                         <div class="gender-group">
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="female">
+                                <input type="radio" name="gender" id="female" value="female">
                                 <label for="female">Feminino</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="male">
+                                <input type="radio" name="gender" id="male" value="male">
                                 <label for="male">Masculino</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="others">
+                                <input type="radio" name="gender" id="others" value="others">
                                 <label for="others">Outros</label>
                             </div>
                             <div class="gender-input">
-                                <input type="radio" name="gender" id="none">
+                                <input type="radio" name="gender" id="none" value="none">
                                 <label for="none">Prefiro não dizer</label>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <button type="submit">Continuar</button>
                 </div>
             </form>
         </div>
