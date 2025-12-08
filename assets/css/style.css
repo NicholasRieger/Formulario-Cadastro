@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    max-width: 70%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0,0,0,.212);
@@ -177,7 +177,7 @@ body{
 
 /* RESPONSIVO */
 
-@media screen and (max-width: 1330px){
+@media screen and (max-width: 1400px){
     .form-image{
         display: none;
     }
@@ -191,10 +191,15 @@ body{
     }
 }
 
-@media screen and (max-width:1064px) {
+@media screen and (max-width:1120px) {
     .container{
-        width: 90%;
+        width: 80%;
         height: auto;
+    }
+
+    .form{
+        padding: 2rem;
+        width: 100%;
     }
 
     .input-group{
@@ -203,6 +208,7 @@ body{
         flex-wrap: nowrap;
         max-height: 10rem;
         padding-right: 0.5rem;   /* corrigido */
+
     }
 
     .gender-inputs{
